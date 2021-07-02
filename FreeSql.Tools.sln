@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{09E97C40-CAAF-4F2B-A10C-90059F4E22E8}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RazorTemplates", "RazorTemplates", "{E03A31B7-65EF-494A-AA6F-4C26ACE74B2F}"
+	ProjectSection(SolutionItems) = preProject
+		RazorTemplates\实体类+特性+导航属性.cshtml = RazorTemplates\实体类+特性+导航属性.cshtml
+		RazorTemplates\实体类+特性.cshtml = RazorTemplates\实体类+特性.cshtml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeSql.Tools.WinForm", "FreeSql.Tools.WinForm\FreeSql.Tools.WinForm.csproj", "{10F7D342-FEFB-46E4-B6D4-8B781E4E045C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DFC2A14-DA03-4A20-AFBF-C4A167DA2297}"
+	ProjectSection(SolutionItems) = preProject
+		BugFix.log = BugFix.log
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10F7D342-FEFB-46E4-B6D4-8B781E4E045C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F7D342-FEFB-46E4-B6D4-8B781E4E045C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F7D342-FEFB-46E4-B6D4-8B781E4E045C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F7D342-FEFB-46E4-B6D4-8B781E4E045C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB0BFB7C-2835-4797-83C3-6D7772DA37A4}
+	EndGlobalSection
+EndGlobal
