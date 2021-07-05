@@ -23,7 +23,7 @@ public class RazorModel
 	public TaskBuild task { get; set; }
 	public List<DbTableInfo> tables { get; set; }
 	public DbTableInfo table { get; set; }
-	public List<DbColumnInfo> columns => this.table.Columns;
+	public List<DbColumnInfo> columns => this.table.Columns.OrderBy(c => c.Position).ToList();
 	public string NameSpace => task.NamespaceName;
 	public string FullTableName => $"{(new[] { "public", "dbo" }.Contains(table.Schema) ? "" : table.Schema)}.{table.Name}".TrimStart('.');
 
